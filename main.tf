@@ -6,17 +6,6 @@ terraform {
   }
 }
 
-terraform {
-  /*
-  cloud {
-    organization = "policy-as-code-training"
-    workspaces {
-      name = "tf-vault-qa-br-10-6"
-    }
-  }
-  */
-}
-
 provider "aws" {
   region  = "us-west-1"
 }
