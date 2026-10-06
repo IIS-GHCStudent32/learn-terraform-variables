@@ -8,3 +8,9 @@ variable "instance_count" {
   description = "Number of EC2 instances to create"
   type        = number
 }
+
+variable "region" {
+  description = "Region for provider"
+  type = string
+  default = "us-west-1"
+}
